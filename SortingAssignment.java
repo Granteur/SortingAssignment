@@ -10,10 +10,10 @@ public class SortingAssignment {
         }
         System.out.println("Array: \n" + listOfNumbers);
         System.out.println("Size of Array: \n" + listOfNumbers.size());
-        // Sort in ascending order
+        /*Sort in ascending order by using an imported Collections class method .sort()*/
         Collections.sort(listOfNumbers);
         System.out.println("Ascending Array Sort \n" + listOfNumbers);
-        // Sort in descending order
+        /*Sort in descending order by using an imported Collections class method*/
         Collections.sort(listOfNumbers);
         Collections.reverse(listOfNumbers);
         System.out.println("Descending Array Sort \n" + listOfNumbers);
